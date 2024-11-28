@@ -18,6 +18,12 @@ Make sure to install dependencies:
 npm install
 ```
 
+setup a `.env` file with the address of your pocketbase server:
+
+```env
+NUXT_PUBLIC_POCKETBASE_URL: http://localhost:8080
+```
+
 ### Development Server
 
 Start the development server on `http://localhost:3000`:
